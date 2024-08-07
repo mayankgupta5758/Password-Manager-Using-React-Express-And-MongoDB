@@ -1,0 +1,6 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="50">
+  <text x="10" y="35" font-family="Arial" font-size="35" fill="#ffffff">Pass</text>
+  <text x="78" y="35" font-family="Arial" font-size="35" fill="#00A651">OP</text>
+  <text x="135" y="35" font-family="Arial" font-size="35" fill="#ffffff">/</text>
+</svg>

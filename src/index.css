@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ul {
+    gap: 50px;
+}
+
+.color {
+    border: 1px solid rgb(152, 152, 152);
+}
+
+.shad:hover {
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #ab529b;
+}
+
+.mono:hover {
+    box-shadow: 11px 9px 7px 0px #a1c8af,
+        11px 9px 7px 0px #a1c8af,
+        -11px -9px 7px 0px #a1c8af,
+        -11px -9px 7px 0px #a1c8af,
+        11px 9px 7px 0px white,
+        11px 9px 7px 0px #a1c8af,
+        -11px -9px 7px 0px #a1c8af,
+        -11px -9px 7px 0px #a1c8af;
+    transition: ease-in-out 0.65s;
+}
+
+.hov:hover {
+    cursor: pointer;
+    background-color: rgb(216 180 254);
+    transition: ease-in-out .75s;
+    border: 2px solid #16a34a;
+}
+
+input::placeholder {
+    color: #519b6c;
+}
+
+.b {
+    background-color: #d9cbfd3b;
+}
+
+.line {
+    width: 99vw;
+    height: 1.3px;
+    background-color: #7eb291;
+}
+
+.g {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
